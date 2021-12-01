@@ -1,0 +1,52 @@
+body {
+    background-color: #232A34;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.form-control {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    color: black;
+    font-size: 28px;
+    position: absolute;
+    top: 40%;
+    left: 46.6%;
+    transform: translate(-50%, -50%);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 1em; 
+}
+
+@media (max-width: 600px) {
+    .form-control {
+        top: 80%;
+    }
+
+    .text {
+        color: white;
+    }
+
+    .tabs {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
